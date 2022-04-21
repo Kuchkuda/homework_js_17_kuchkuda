@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/yahoo/pure-release/v0.6.0/pure-min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/yahoo/pure-release/v0.6.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="modelBox">
+        <div class="resultGame">
+            <div class="win">
+                <div>Woohoo, well done, you did it!</div>
+                <button type="button" class="btnResNewGmae">new game</button>
+            </div>
+            <div class="lose">
+                <div>It's a pity, but you lost</div>
+                <button type="button" class="btnResNewGmae">new game</button>
+            </div>
+        </div>
+        <div class="block">
+            <div class="checText">You still have time, you sure?</div>
+            <div class="btnBlock">
+                <button type="button" class="btn btnClose">Close</button>
+                <button type="button" class="btn btnResCheck">Check</button></div>
+        </div>
+    </div>
+    
+    </div>
+    <div class="topBlock">
+        <div class="time">00 : 00</div>
+        <div class="btnBlock">
+            <button type="button" class="btnStart btn">Start</button>
+            <button type="button" class="btnCheck btn" disabled>Check</button>
+            <button type="button" class="btnNew btn">New Game</button>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="box left">
+            <div class="boxImg">
+                <div class="imgBox"><img class="img" src="img/image.jpg"></div>
+                <div class="blockPuzzle sort">
+                </div>
+            </div>
+        </div>
+        <div class="box right">
+            <div class="resImg"></div>
+        </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

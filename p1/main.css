@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.modelBox{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.486);
+    z-index: 5;
+    display: none;
+}
+.win,.lose{
+flex-direction: column;
+font-size: 20px;
+display: none;
+}
+.btnResNewGmae{
+    border-radius: 5px;
+    background-color: green;
+    border: none;  
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+}
+.resultGame{
+    margin: 30px auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: indigo;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: none;
+}
+.block{
+    margin: 30px auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.checText{
+    margin: 20px auto;
+    font-size: 20px;
+    color: white;
+}
+.topBlock {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 20px;
+    color:black;
+}
+.btnBlock {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+}
+
+.btnClose{
+    border-radius: 5px;
+    background-color: red;
+    border: none;  
+    margin: 0px 50px;
+}
+.btnResCheck{
+    border-radius: 5px;
+    background-color: green;
+    border: none; 
+    margin: 0px 50px;
+}
+.btnCheck{
+    border-radius: 5px;
+    background-color: rgb(0, 80, 0);
+    border: none;
+}
+.btnStart,.btnNew{
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+}
+.contain {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.imgBox {
+    height: 300px;
+    width: 300px;
+    opacity: 0.3;
+    background-image: url(img/jungle.jpg);
+    background-size: 100%;
+    position: absolute;
+}
+.box,
+.resImg,
+.blockPuzzle {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: relative;
+    box-shadow: 0px 0px 15px 3px black;
+}
+
+.left,
+.right {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start
+}
+
+.img {
+    width: 100%;
+    opacity: 0.1;
+    position: absolute;
+}
+
+.wrapLeft,
+.leftChildren,
+.wrapRight {
+    width: 75px;
+    height: 75px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.img1 {
+    background-image: url(img/jungle.jpg);
+    background-position: 0% 0%;
+    background-size: 400%;
+}
+
+.img2 {
+    background-image: url(img/jungle.jpg);
+    background-position: 33% 0%;
+    background-size: 400%;
+}
+
+.img3 {
+    background-image: url(img/jungle.jpg);
+    background-position: 66% 0%;
+    background-size: 400%;
+}
+
+.img4{
+    background-image: url(img/jungle.jpg);
+    background-position: 99% 0%;
+    background-size: 400%;
+}
+
+.img5 {
+    background-image: url(img/jungle.jpg);
+    background-position: 0% 33%;
+    background-size: 400%;
+}
+
+.img6 {
+    background-image: url(img/jungle.jpg);
+    background-position: 33% 33%;
+    background-size: 400%;
+}
+
+.img7 {
+    background-image: url(img/jungle.jpg);
+    background-position: 66% 33%;
+    background-size: 400%;
+}
+
+.img8 {
+    background-image: url(img/jungle.jpg);
+    background-position: 99% 33%;
+    background-size: 400%;
+}
+
+.img9 {
+    background-image: url(img/jungle.jpg);
+    background-position: 0% 66%;
+    background-size: 400%;
+}
+.img10 {
+    background-image: url(img/jungle.jpg);
+    background-position: 33% 66%;
+    background-size: 400%;
+}
+
+.img11 {
+    background-image: url(img/jungle.jpg);
+    background-position: 66% 66%;
+    background-size: 400%;
+}
+
+.img12 {
+    background-image: url(img/jungle.jpg);
+    background-position: 99% 66%;
+    background-size: 400%;
+}
+
+.img13 {
+    background-image: url(img/jungle.jpg);
+    background-position: 0% 99%;
+    background-size: 400%;
+}
+.img14 {
+    background-image: url(img/jungle.jpg);
+    background-position: 33% 99%;
+    background-size: 400%;
+}
+.img15 {
+    background-image: url(img/jungle.jpg);
+    background-position: 66% 99%;
+    background-size: 400%;
+}
+.img16 {
+    background-image: url(img/jungle.jpg);
+    background-position: 99% 99%;
+    background-size: 400%;
+}
